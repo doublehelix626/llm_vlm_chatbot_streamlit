@@ -1,0 +1,1 @@
+# 这是一个使用streamlit用于语言/视觉大模型对话，以及使用streamlit实现rtsp流播放同时进行大模型对话的demo（可在robotcontrol.py文件中添加一些自定义的摄像头功能）
