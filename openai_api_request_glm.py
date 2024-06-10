@@ -12,7 +12,7 @@ and handle responses.
 
 from openai import OpenAI
 
-base_url = "api_url"
+base_url = "your_api_url"
 client = OpenAI(api_key="EMPTY", base_url=base_url)
 
 

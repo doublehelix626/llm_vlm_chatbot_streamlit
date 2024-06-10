@@ -4,7 +4,7 @@ import threading
 import time
 st.set_page_config(page_title="RTSP Stream Viewer")
 # RTSP URL of the video feed
-rtsp_url = "rtsp://admin:zmh123456@192.168.1.64:554"
+rtsp_url = "rtsp://user:password@192.168.1.64:554"
 # Create a VideoCapture object
 cap = cv2.VideoCapture(rtsp_url)
 if not cap.isOpened():

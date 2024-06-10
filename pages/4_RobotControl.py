@@ -13,7 +13,7 @@ st.set_page_config(
     page_icon=" ",
     layout="wide",
 )
-st.title("智能哨兵")
+st.title("智能ptz")
 if "vlm_history" not in st.session_state:
     st.session_state.vlm_history = [{"role": "assistant",
                                      "content": "你好~,我是cogvlm！！！"}]
@@ -116,7 +116,7 @@ with (st.container(height=700, border=None)):
             st.session_state.control_history.append({"role": "assistant", "content": response})
             st.session_state.control_openai_messages.append({"role": "assistant", "content": response})
     with col4.container(height=560):
-        rtsp_url = "rtsp://admin:zmh123456@192.168.1.64:554"
+        rtsp_url = "rtsp://user:password@192.168.1.64:554"
         # Create a VideoCapture object
         cap = cv2.VideoCapture(rtsp_url)
         if not cap.isOpened():

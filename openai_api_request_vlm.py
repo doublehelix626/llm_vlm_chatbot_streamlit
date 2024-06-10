@@ -9,7 +9,7 @@ import requests
 import json
 import base64
 
-base_url = "api_url"
+base_url = "your_api_url"
 
 
 def create_chat_completion(model, messages, temperature=0.8, max_tokens=2048, top_p=0.8, use_stream=False):
